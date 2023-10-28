@@ -218,7 +218,6 @@
     width: 15%;
     position: relative;
     right: 40%;
-    left: 40%;
     font-weight: 600;
     
 }
@@ -226,6 +225,8 @@
     text-decoration: none;
     cursor: pointer;
     color: #231f20;
+    
+  
 }
 .services-right .next{
     position: absolute;
@@ -431,7 +432,6 @@
     grid-template-columns: repeat(4,1fr);
     grid-template-rows: repeat(4,180px);
     width: 70%;
-    /* height: 120px; */
     margin-top: -20px;
     gap: 45px;
     
@@ -441,11 +441,11 @@
     justify-content: center;
     align-items: center;
     padding-right: 120px;
-    padding-bottom: 20px;
+ 
    
 }
 .galleries-grid-logo{
-    /* width: 100%; */
+    
 }
 .colleques{
     position: relative;
@@ -492,18 +492,18 @@
 .license{
     width: 30%;
     border: 1px solid #969ba8;
-    padding-bottom: 5px;
-
+    /* padding-bottom: 5px; */
+    height: 207px;
 }
 
 .license-logos{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 40px;
-   
-
+    column-gap: 40px;
+    margin-top: -30px;
 }
+
 .linie{
     position: absolute;
     width: 100%; 
